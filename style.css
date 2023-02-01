@@ -1,0 +1,120 @@
+/*
+font-family: 'Roboto Mono', monospace;*/
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    background: #3c3964;
+    color: #3c3964;
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #aea1ff;
+    border-radius: 10px;
+    padding: 0 100px 50px;
+}
+
+.logo {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 30px;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.info input {
+    width: 40px;
+    background: none;
+    border: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    color: #3c3964;
+    padding: 5px 10px;
+}
+
+.info input::-webkit-outer-spin-button,
+.info input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.info input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.countdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.num {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 160px;
+    line-height: 1;
+    font-weight: 700;
+    background: #d1c9ff;
+    padding: 10px 16px;
+    border-radius: 8px;
+}
+
+.dots {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 160px;
+    line-height: 1;
+    font-weight: 700;
+    color: #3c3964;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #fff;
+    background:  #3c3964;
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background: #514d83;
+    border: 1px solid #514d83;
+}
+
+button img {
+    width: 100%;
+    max-width: 20px;
+    margin-right: 10px;
+}
